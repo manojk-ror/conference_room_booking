@@ -1,0 +1,55 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  capacity: 1
+  floor: MyString
+  location: MyString
+  phone: MyString
+  slide_projector: false
+  film_projector: false
+  remote_control_for_projectors: false
+  wifi_capability: false
+  video_conferencing_system: false
+  smart_board: false
+  loudspeakers: false
+  laser_pointers: false
+  projector_screens: false
+  microphones: false
+  computer: false
+  room_sound_proofed: false
+  electrical_power_sufficient: false
+  emergency_alarms: false
+  cctv: false
+  air_conditioning: false
+  cd_dvd_player: false
+  high_speed_internet: false
+  intelligent_lighting: false
+  comfortable_adjustable_chairs: false
+
+two:
+  name: MyString
+  capacity: 1
+  floor: MyString
+  location: MyString
+  phone: MyString
+  slide_projector: false
+  film_projector: false
+  remote_control_for_projectors: false
+  wifi_capability: false
+  video_conferencing_system: false
+  smart_board: false
+  loudspeakers: false
+  laser_pointers: false
+  projector_screens: false
+  microphones: false
+  computer: false
+  room_sound_proofed: false
+  electrical_power_sufficient: false
+  emergency_alarms: false
+  cctv: false
+  air_conditioning: false
+  cd_dvd_player: false
+  high_speed_internet: false
+  intelligent_lighting: false
+  comfortable_adjustable_chairs: false

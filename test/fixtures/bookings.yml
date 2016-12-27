@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  conference_room: one
+  comment: MyString
+  start_date_time: 2016-12-27 13:26:26
+  end_date_time: 2016-12-27 13:26:26
+
+two:
+  user: two
+  conference_room: two
+  comment: MyString
+  start_date_time: 2016-12-27 13:26:26
+  end_date_time: 2016-12-27 13:26:26
