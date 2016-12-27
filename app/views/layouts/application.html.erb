@@ -10,8 +10,18 @@
 
   <body>
     <!--  flash messages -->
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <!--p class="notice"><%= notice %></p-->
+    <!--p class="alert"><%= alert %></p-->
+    <% if !flash.empty? %>
+    <div id="flash"> 
+      <% flash.keys.each do |k| %> 
+        <div class="<%= k %>">
+          <%= flash[k] %>
+        </div>  
+      <% end %>   
+    </div>
+  <% end %>
+
     <%= yield %>
   </body>
 </html>

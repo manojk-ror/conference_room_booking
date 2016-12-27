@@ -39,6 +39,8 @@ group :development, :test do
 end
 
 group :development do
+  # you want to use the scaffold-functions too, add haml-rails within your development-group
+  gem 'haml-rails'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
