@@ -1,2 +1,22 @@
 #home
-  = "Booking Conference Room"
+  .container-fluid
+    .row
+      .col-md-2
+      .col-md-8.col-xs-12
+        #home.heading Booking Conference Room
+        #searchform
+          .row
+            .col-md-12.col-xs-12.col-sm-12
+              %form
+                .col-md-5.col-xs-6
+                  .form-group
+                    %input.form-control{:placeholder => "Please fill checkin date time", :type => "text"}
+                .col-md-5.col-xs-6
+                  .form-group
+                    %input.form-control{:placeholder => "Please fill checkout date time", :type => "text"}
+                .col-md-2.col-xs-6
+                  %button.btn.btn-primary{type: "submit"} Find Availability
+
+
+
+

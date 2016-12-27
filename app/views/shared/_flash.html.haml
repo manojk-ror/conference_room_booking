@@ -1,0 +1,19 @@
+- if !flash.empty?
+  #flash
+    - flash.keys.each do |k|
+      - if k == "notice"
+        .alert.alert-warning
+          = flash[k]
+          %span x
+      - elsif k == "success"
+        .alert.alert-success
+          = flash[k]
+          %span x
+      - elsif k == "alert"
+        .alert.alert-danger
+          = flash[k]
+          %span x
+      - else
+        .alert.alert-info
+          = flash[k]
+          %span x
